@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <title>To do List</title>
+</head>
+<body>
+    <h1>My To do List in jQuery</h1>
+    <div class="create-form">
+    <main class="register">
+    <form id="form">
+       <label for="Entry"><b>Complete the following:</b></label> 
+        <br />
+        <label for="Name">My Name:</label> 
+        <input name="Name" type="text" />
+        <br />
+        <label for="Homework">Finish Homework:</label> 
+        <input name="Homework" type="text" />
+        <br />
+        <label for="Upcoming Vacations :"> Upcoming Vacations :</label>
+        Cancun <input name="Type" value="Cancun" type="radio" /> 
+        Chiapas <input name="type" value="Chiapas" type="radio" /> 
+        Guanajuato <input name="type" value="Guanajuato" type="radio" />
+        <br />
+        <label for="Vacation Time:">Vacation Time:</label>
+        <input name="Vacations" type="date" />
+        <br />
+        <label for="Upcoming Concerts  :"> Upcoming Concerts  :</label>
+        Pearl Jam <input name="Pearl Jam" value="Pearl Jam" type="radio" /> 
+        BonJovi <input name="BonJovi" value="BonJovi" type="radio" />
+        <br />
+        <br />
+        <label for="Book to read:">Book to read:</label>
+        <input name="Book" type="text" />
+        <br />
+        <label for="Upcomming Party:">Upcomming Party:</label> 
+        <input name="Party" type="text" />
+        <br />
+        <label for="Learn new hobbys:">Learn new hobbys:</label>
+        <select name="hobbys">
+            <option value="" disable="" selected="">--Select--</option>
+            <option value="Ride a bike">Ride a bike</option>
+            <option value="Swimming Lessons">Swimming Lessons</option>
+            <option value="Rappel and Outdoors">Rappel and Outdoors</option>
+        </select>
+        <br />
+        <label for=" Buy Pets"> Buy Pets:</label> 
+        <input name="Pets" type="number" />
+        <br />
+        <button type="button" value="register" onclick="register();"id="submit-button">Inputs</button>
+        <br />
+        <br />
+        <h3><b> To do: </b></h3>
+        <output id="output"></output>
+    </main>
+    </div>
+    <script src="scripts/myscript.js"></script>
+    </main>
+</body>
+</html>
